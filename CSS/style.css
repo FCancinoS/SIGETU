@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-section, .turn-display-section {
+    max-width: 800px;
+    width: 100%;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px auto;
+}
+
+h1, h2 {
+    color: #007acc;
+}
+
+#turnDisplay {
+    font-size: 4em;
+    margin: 20px 0;
+    color: #555;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 15px;
+    width: calc(100% - 20px);
+    border: 1px solid #007acc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    margin: 10px;
+    background-color: #007acc;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+#statusDisplay, #timeElapsedDisplay {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: green;
+}
+
+#turnControlButtons {
+    margin-top: 20px;
+}

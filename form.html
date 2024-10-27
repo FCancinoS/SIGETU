@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Solicitud</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div class="form-section">
+        <h2>Agregar Solicitud</h2>
+        <input type="text" id="name" placeholder="Nombre" required>
+        <input type="text" id="surname" placeholder="Apellidos" required>
+        <input type="text" id="requestType" placeholder="Tipo de Solicitud" required>
+        <textarea id="request" placeholder="Descripción de la Solicitud" required></textarea>
+        <button id="addRequestButton">Agregar Solicitud</button>
+        
+        <div id="turnControlButtons">
+            <button id="nextTurnButton">Siguiente Turno</button>
+            <button id="previousTurnButton">Turno Anterior</button>
+        </div>
+    </div>
+
+    <script src="./JS/form.js"></script>
+</body>
+</html>
